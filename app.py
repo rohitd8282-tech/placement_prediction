@@ -152,3 +152,9 @@ if st.button("Predict Placement"):
         "This is an educational estimate, not a guarantee "
         "of real-world placement."
     )
+
+import sklearn
+import sys
+
+st.write("Python version:", sys.version)
+st.write("Scikit-learn version:", sklearn.__version__)
